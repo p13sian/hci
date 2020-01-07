@@ -27,3 +27,26 @@ Eγκατέστησα το neofech για να δείξω το σύστημά μ
 sudo apt install neofetch
 neofech
 ```
+
+### Άσκηση 2. Βrowse and view files on your system.
+#### asciinema: https://asciinema.org/a/4x32iogQLLddAoK1VVt2abiBq
+Εγκατέστησα το ranger και το vim.
+
+```
+sudo apt-get install ranger
+sudo aot-get install vim
+```
+
+Χρησιμοποίησα το ranger για να περιηγηθώ στο filesystem μου.
+
+```
+ranger
+```
+
+Χρησιμοποίησα τον vim editor για να δημιουργήσω ένα νέο αρχείο στο οποίο πρόσθεσα κείμενο και το έσωσα.
+Τα maual του ranger και του vim είναι αναλυτικότατα.
+
+```
+man ranger
+man vim
+```
