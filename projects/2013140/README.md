@@ -8,6 +8,9 @@
 ### Γιώργος Σιανός
 ### ΑΜ: Π2013140
 
+## Εισαγωγή
+Έγιναν συνολικά 4 ασκήσεις σε περιβάλλον linux με τη χρήση του terminal οπως περιγραφεται στις οδηγίες. Για την υλοποίηση των ασκήσεων εγκατέστησα το Oracle vm virtual box https://www.virtualbox.org/, καθώς και ένα linux image Ubuntu 19.10 Eoan Ermine από https://www.osboxes.org/ubuntu/. Το εικονικό σύστημα έχει 2gb ram. Η υλοποίηση όλων των εργασιών έχει καταγραφεί σε asciinema sessions. Όπου έχει γίνει αναζήτηση στο διαδίκτυο για πληροφορίες παραθέτοντε τα σχετικά urls.
+
 ### Άσκηση 1. Set-up the main dependencies and demonstrate your base system - Change your command prompt with your student ID, list your dot files, display your shell configuration file and display system information (hardware+software)
 #### asciinema: https://asciinema.org/a/xcewjj3h9W8XBDfm8WNn93UtN
 Άλλαξα το command prompt απο το αρχείο .bashrc. Το configuration του αρχείου φαίνεται στο recorded session. Για να τροποποιήσω το αρχείο χρησιμοποίησα τον nano editor
@@ -99,6 +102,9 @@ https://stackoverflow.com/questions/7771557/how-to-terminate-a-window-in-tmux
 https://www.youtube.com/watch?v=BHhA_ZKjyxo
 
 https://www.howtoforge.com/tutorial/ubuntu-performance-monitoring/
+
+## Συμπεράσματα
+Η χρήση του linux command line για την υλοποίηση καθημερινών tasks, μπορεί να φαντάζει δύσκολη αρχικά, όμως με την εξοικείωση του χρήστη δεν έχει τίποτα να ζηλέψει απο τα windows. Οι δυνατότητες του terminal είναι πολλές, και υπάρχουν πάρα πολλα εργαλέια με documentation που μπορύν να κάνουν τη ζωή (ειδικά ενός developer) πολύ πιο εύκολη. Με την υλοποίηση των παραπάνω ασκήσεων σξοικειώθηκα στις βασικές εντολές του windows terminal και του filesystem γενικότερα, ενώ έμαθα να χρησιμοποίώ τα παραπάνω εργαλέια.
 
 
 
