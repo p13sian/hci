@@ -82,5 +82,25 @@ set omnifunc=syntaxcomplete#Complete
 https://www.cyberciti.biz/faq/turn-on-or-off-color-syntax-highlighting-in-vi-or-vim/
 https://vim.fandom.com/wiki/Omni_completion
 
+### Άσκηση 4. Organise the terminal window into multiple areas.	Use one window to search-edit local files or browse the web and another window for performance monitoring.
+#### asciinema: https://asciinema.org/a/WDgoJn05qnP3XJFAAHTg5BKjC
+
+Χρησιμοποίησα το tmux. Βρήκα αρκετές πληροφορίες και βίντεο σχετικά με τη χρήση και τη λειτουργία του.
+
+```
+sudo apt-get install tmux
+```
+
+Αφού έκανα split το terminal σε δυο windows, στο ένα χρησιμοποίησα το top για performance monitoring, και στο άλλο παράθυρο άνοιξα να επεηεργαστώ ένα αρχείο html που είχα δημιουργήσει σε προηγούμενη εργασία.
+
+#### Πληροφορίες σχετικά με την υλοποίηση της άσκησης βρήκα:
+https://stackoverflow.com/questions/7771557/how-to-terminate-a-window-in-tmux
+
+https://www.youtube.com/watch?v=BHhA_ZKjyxo
+
+https://www.howtoforge.com/tutorial/ubuntu-performance-monitoring/
+
+
+
 
 
