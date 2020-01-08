@@ -50,3 +50,37 @@ ranger
 man ranger
 man vim
 ```
+
+### Άσκηση 3. Edit the vim or the shell configuration file.
+#### asciinema: https://asciinema.org/a/xaIsS9BGrrAMSOBXeAnz0k9d9
+
+Στην συγκεκριμένη έκδοση του vim 8.1.1401. To code highlighting ειναι ενεργοποιημένο by default. Για να γίνει οποιαδήποτε αλλαγή στο configuration του vim χρησιμοποιούμε το αρχείο .vimrc το οποίο αν δεν υπάρχει το δημιουργούμε στο home directory.
+
+```
+nano .vimrc
+```
+
+Για να ενεργοποιήσουμε και να απενεργοποιήσουμε το code highlighting ανάλογα προσθέτουμε τα παρακάτω στο αρχείο .vimrc
+
+```
+:syntax on
+
+:syntax off
+```
+
+Για να ενεργοποιήσω το auto completion χρησιμοποίησα το omni completion, το οποίο δεν είναι ενεργοποιημένο by default στον vim editor.
+Το omni completion υποστηρίζει αρκετές γλώσσες τις οποίες καταλαβαίνει απο την επέκταση του αρχείου. Για να ενεργοποιήσω το omni completion προσθεσα τα παρακάτω στο αρχείο .vimrc.
+
+```
+filetype plugin on
+set omnifunc=syntaxcomplete#Complete
+```
+
+Για να δοκιμάσω τις νέες αυτές δυνατότητες δημιούργησα ένα αρχείο .html.
+
+#### Πληροφορίες σχετικά με την υλοποίηση της άσκησης βρήκα:
+https://www.cyberciti.biz/faq/turn-on-or-off-color-syntax-highlighting-in-vi-or-vim/
+https://vim.fandom.com/wiki/Omni_completion
+
+
+
